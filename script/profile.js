@@ -42,7 +42,3 @@ function transit() {
     document.getElementById(getid).classList.add("list-show");
 }
 
-
-  
-
-
