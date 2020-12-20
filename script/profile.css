@@ -89,6 +89,17 @@ a  { text-decoration: none; }
     align-content: center;
     justify-content: center;
 }
+#foto {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    color: #331900;
+    font-size: 15px;
+    font-weight: 600;
+    background-image: linear-gradient( 135deg, rgb(204 255 204 / .3) 10%, rgb(9153 255 204 / .3) 100%);
+}
 
 /* =============================== */
 /* Rules untuk Header              */
@@ -107,16 +118,13 @@ a  { text-decoration: none; }
 .Biografi {
     color: rgb(255 255 255 / 0.85);
     font-size: 20px;
-    margin-bottom: 65px;
+
 }
 .Quote {
     color: rgb(255 255 255 / 0.85);
     font-size: 20px;
     margin-bottom: 65px;
 }
-
-
-
 
 header {
     display: flex;
@@ -142,6 +150,17 @@ header nav a {
 /* Rules untuk List Pengalaman, Sertifikasi dan Riwayat */
 /* ==================================================== */
 
+.list{
+    font-size: large;
+    
+}
+
+#sertifikasi {
+    background-image: linear-gradient( 135deg, rgb(220 32 162 / .3) 10%, rgb(96 24 220 / .3) 100%)
+    border 1px solid rgb(169 0 255 / 20%);
+    text-align: justify;
+
+}
 .list-show{
     height: auto;
     opacity: 1;
@@ -219,5 +238,11 @@ footer{
     display: inline-flex;
     list-style: none;
 }
+
+.vinny {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .sosial-media li { margin-left: 30px; }
 .icon-sosmed{ width: 50px; height: 50px;}
